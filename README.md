@@ -24,3 +24,4 @@ DELETE : http://localhost:4000/api/v1/bookings/2 : Eliminar uan reserva
     "fecha_salida": "2001/01/01"
 }"# Taller-Express-Myqdl" 
 "# Taller-Express-Myqdl" 
+"# Taller-Express-Myqdl" 
