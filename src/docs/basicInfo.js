@@ -1,9 +1,8 @@
 export const basicInfo = {
   openapi: "3.0.3",
   info: {
-    title: "Taller Express API",
-    description:
-      "API para el registro de préstamos de libros de la biblioteca Unicosta.",
+    title: "Taller de Express y MySQL API",
+    description: "API para el registro y consulta de reserva de habitaciones.",
     version: "1.0.0",
     contact: {
       name: "Jaime Acosta",

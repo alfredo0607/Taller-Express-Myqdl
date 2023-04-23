@@ -15,14 +15,4 @@ const connection = mysql.createPool({
   queueLimit: 0,
 });
 
-const prueba = async () => {
-  const newConnection = await connection.getConnection();
-
-  const [rows] = await newConnection.query("SELECT * FROM habitaciones");
-
-  console.log(rows);
-};
-
-prueba();
-
 export default connection;

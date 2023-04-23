@@ -33,7 +33,7 @@ app.use((req, res, next) => {
 });
 
 app.use("/api/v1", appRouter);
-app.use("/doc", swaggerUI.serve, swaggerUI.setup(docs));
+app.use("/", swaggerUI.serve, swaggerUI.setup(docs));
 
 app.get("*", function (req, res) {
   res.status(404).send("Error 404 - Recurso no encontrado.");
